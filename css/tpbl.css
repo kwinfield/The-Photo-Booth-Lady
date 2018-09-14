@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar {
+	font-family: 'Poiret One', cursive;
+}
+
+.nav-colored { 
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-brand2 {
+	border: 2px solid white;
+	border-radius: 25px;
+}
+
+
+
+.nav-item2 {
+	border: 2px solid white;
+	border-radius: 25px;
+}
+
+#titleHead {
+	display: none;
+}
+
+#titleP {
+	display: none;
+}
+
+#titleButtons {
+	display: none;
+}
+
+#call {
+	display: none;
+}
+
+#line {
+	display: none;
+}
+
+.fade {
+	opacity: 1;
+}
+
+.car {
+	width: 60%;
+	margin: auto;
+}
+
+.jumbotron {
+	margin: 0px;
+	background-image: url(../img/babackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+
+.jumbotron h1 {
+	color: white;
+	text-align: center;
+	margin-top: 15%;
+	font-family: 'Poiret One', cursive;
+	font-size: 3em;
+	text-shadow: 2px 2px 8px #000;
+}
+
+.jumbotron hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.jumbotron p {
+	color: lightgray;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 1em;
+	text-shadow: 2px 1px #000;
+}
+
+.jtbtn {
+	width: 100%;
+	margin: auto;
+	margin-top: 3em;
+	text-align: center;
+}
+
+
+
+.jumbotron ul {
+	width: 300px;
+	margin: auto;
+	margin-top: 2em;
+	align-content: center;
+}
+
+.jumbotron li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.jumbotron img {
+	width: 50px;
+}
+
+.jumbotron img:hover {
+	opacity: .75;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.container h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+}
+
+.container h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	
+}
+
+.container p {
+	font-size: 1em;
+	font-family: 'Poiret One', cursive;
+	color: black;
+}
+
+.videoWrapper {
+	width: 80%;
+	margin: auto;
+	padding: 0;
+}
+
+video {
+  width: 100%    !important;
+  height: 100%   !important;
+}
+
+.form {
+	width: 80%;
+	margin: auto;
+	padding: 0;
+	font-family: 'Poiret One', cursive;
+}
+
+footer {
+	background-color: lightgray;
+	font-family: 'Poiret One', cursive;
+}
+
+.footer-copyright {
+	background-color: gray;
+}
+
+.footer-copyright p {
+	font-family: 'Poiret One', cursive;
+	color: white;
+}
+
+.footer-copyright a:hover{
+	color: lightgray;
+}
+
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: gray;
+}
+
+.icons  ul {
+	width: 100%;
+	padding: 0;
+}
+
+.icons img {
+	width: 50px;
+	opacity: .75;
+}
+
+
+
+.icons li {
+	display: inline-block;
+}
+
+#about {
+	opacity: 0;
+}
+
+@media screen and (min-width: 700px){
+	.jumbotron h1 {
+	font-size: 4em;
+	}
+	.jumbotron p {
+	font-size: 2em;
+	}
+	.container {
+	width: 90%;
+	margin: auto;
+	padding: 0;
+	}
+	
+	
+	
+	
+	.container h1 {
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-top: 100px !important;
+	margin-bottom: 100px !important;
+	}
+
+	.container h2 {
+		font-size: 2em;
+		font-weight: bold;
+		font-family: 'Poiret One', cursive;
+
+	}
+
+	.container p {
+		font-size: 1.5em;
+		font-family: 'Poiret One', cursive;
+		color: black;
+		text-align: left;
+	}
+	
+	.form {
+		width: 80%;
+		margin: auto;
+		padding: 0;
+	}
+	
+	.page-footer h5 {
+		font-size: 1.5em;
+	}
+	
+	.page-footer p {
+		font-size: 1em;
+	}
+	
+	
+}
